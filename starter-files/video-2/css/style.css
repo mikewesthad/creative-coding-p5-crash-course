@@ -8,3 +8,26 @@ html, body, canvas {
 canvas {
 	vertical-align: top;
 }
+/* Text styling for demo */
+body {
+	font-size: 120px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 20px;
+	animation: rainbow 6s infinite alternate;
+	overflow: hidden;
+}
+@keyframes rainbow {
+	from {
+		color: #ff30ba;
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		color: #9b30ff;
+		transform: scale3d(1.1, 1.1, 1.1);
+	}
+	to {
+		color: #18c9ff;
+		transform: scale3d(1, 1, 1);
+	}
+}
