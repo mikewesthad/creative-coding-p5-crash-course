@@ -4,17 +4,18 @@
 	⊂(◉‿◉)つ
 */
 
+// alert creates a pop up in the browser
+// alert("Hellooooo!");
+// alert("I'm JS!");
 
-// alert creates a pop-up message
-// alert("Helloooo!");
-// alert("I'm javascript!");
+/*
+	Multi
+	Line 
+	Comment!
+*/
 
-// console.log prints out the message to the console window in the developer tools
-// console.log("Hello from the console.");
+// console.log prints out a message in the developer tools!
+console.log("Greetings from console!");
 
-// Errors! JavaScript is case-sensitive and it won't correct your spelling.
-// Console.Log => won't work
-// consoul.log => won't work
-
-// Try using the same pattern with the "document.write" command
-document.write("Welcome!");
+// document.write prints out a message onto the webpage.
+document.write("Welcome to my first site!");
